@@ -19,10 +19,5 @@
   },
   "engines": {
     "node": "10.x"
-  },
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ]
+  }
 }
