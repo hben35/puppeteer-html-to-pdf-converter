@@ -17,7 +17,12 @@
     "multer": "^1.4.2",
     "puppeteer": "^1.19.0"
   },
-  "buildpacks": {
+  "engines": {
     "node": "10.x"
-  }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
 }
